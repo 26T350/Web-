@@ -56,5 +56,11 @@ nav a:hover {
 
 /* ƒŠƒ“ƒN */
 .page-link {
-    margin-bottom: 30px;
+    color: #176b87;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.page-link :hover {
+    color: #e67e22;
 }
