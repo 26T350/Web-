@@ -7,3 +7,10 @@ main {
     margin: 0 auto;
     padding: 70px 20px;
 }
+body {
+    margin: 0;
+    font-family: "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
+    color: #333;
+    background-color: #f4f8f7;
+    line-height: 1.8;
+}
