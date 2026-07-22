@@ -45,7 +45,7 @@ nav {
 }
 
 nav a {
-    color: #176b87;
+    color: #b3a103;
     text-decoration: none;
     font-weight: bold;
 }
@@ -53,3 +53,4 @@ nav a {
 nav a:hover {
     color: #e67e22;
 }
+
