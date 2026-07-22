@@ -1,0 +1,168 @@
+/* ページ全体 */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
+    color: #333;
+    background-color: #f4f8f7;
+    line-height: 1.8;
+}
+
+/* ヘッダー */
+header {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #176b87, #64b6ac);
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 38px;
+}
+
+header p {
+    margin: 10px 0 0;
+    font-size: 18px;
+}
+
+/* ナビゲーション */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav a {
+    color: #176b87;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #e67e22;
+}
+
+/* メイン */
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 70px 20px;
+}
+
+/* 見出し */
+section h2 {
+    text-align: center;
+    color: #176b87;
+    font-size: 32px;
+    margin-bottom: 45px;
+}
+
+/* 観光スポットのカード */
+.spot-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+/* カード */
+.spot-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    border-top: 5px solid #64b6ac;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* カードにマウスを乗せたとき */
+.spot-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* 番号 */
+.spot-number {
+    color: #64b6ac;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* 観光地名 */
+.spot-card h3 {
+    margin: 5px 0;
+    color: #176b87;
+    font-size: 24px;
+}
+
+/* 場所 */
+.location {
+    color: #e67e22;
+    font-weight: bold;
+    margin: 5px 0 15px;
+}
+
+/* 説明文 */
+.spot-card p {
+    margin-bottom: 0;
+}
+
+/* 山口県の魅力 */
+#yamaguchi {
+    margin-top: 80px;
+    padding: 60px 30px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+#yamaguchi p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+
+/* 画像 */
+.tsunoshima-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.akiyosi-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.ruriko-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.motonosumi-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.kintaikyo-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.karato-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
