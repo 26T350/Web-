@@ -122,7 +122,7 @@
 				</section>
 				<section id="section4" class="fade-in">
 					<h2><ruby>三徳山三沸寺<rt>みとくさんさんぶつじ</rt></ruby><ruby>投入堂<rt>なげいれどう</rt></ruby></h2>
-					<p>鳥取県の中央部にそびえる三徳山（みたくさん）に位置する、日本一危険な国宝建築。
+					<p>鳥取県の中央部にそびえる三徳山（みとくさん）に位置する、日本一危険な国宝建築。
 					険しい山道を乗り越えた先には、断崖絶壁にまるで魔法で投げ入れられたかのような、息をのむ秘境の絶景が広がっています！</p>
 					<img src="image/mitokusan.jpg" alt="三徳山三沸寺投入堂の画像">
 					<h3>見どころ</h3>
@@ -165,19 +165,19 @@
 		<script>
 		const targets = document.querySelectorAll('.fade-in');
 
-const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            entry.target.classList.add('show');
-        } else {
-            entry.target.classList.remove('show');
-        }
-    });
-});
+			const observer = new IntersectionObserver((entries) => {
+				entries.forEach(entry => {
+					if (entry.isIntersecting) {
+						entry.target.classList.add('show');
+					} else {
+						entry.target.classList.remove('show');
+					}
+				});
+			});
 
-targets.forEach(target => {
-    observer.observe(target);
-});
-</script>
+			targets.forEach(target => {
+				observer.observe(target);
+			});
+		</script>
 	</body>
 </html>
