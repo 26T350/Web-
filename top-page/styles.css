@@ -18,7 +18,7 @@ body {
     background-color: #f4f8f7;
     line-height: 1.8;
 }
-/* ヘッダー */
+/* 繝倥ャ繝繝ｼ */
 header {
     text-align: center;
     padding: 60px 20px;
@@ -35,7 +35,7 @@ header p {
     font-size: 18px;
 }
 
-/* 目次 */
+/* 逶ｮ谺｡ */
 nav {
     display: flex;
     justify-content: center;
@@ -58,7 +58,7 @@ nav a:hover {
     color: #b67136;
 }
 
-/* リンク */
+/* 繝ｪ繝ｳ繧ｯ */
 .page-link {
     color: #176b87;
     text-decoration: none;
